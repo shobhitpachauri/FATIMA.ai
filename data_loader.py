@@ -4,9 +4,10 @@ from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from huggingface_hub import login
+from config import HUGGINGFACE_API_TOKEN
 
-# Directly login with token
-login(token="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")
+# Login with token from config
+login(token=HUGGINGFACE_API_TOKEN)
 
 # Debug print
 print("Environment variables loaded")
