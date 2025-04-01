@@ -1,0 +1,6 @@
+beautifulsoup4
+requests
+langchain
+langchain-huggingface
+faiss-cpu
+huggingface-hub
